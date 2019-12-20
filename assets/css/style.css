@@ -7,6 +7,7 @@
     background-image: url("../images/ripples.png");
     color: #dddddd;
 }
+
 .stickyheader {
     height: 85px;
     width: 960px;
@@ -15,7 +16,7 @@
     border-style: solid;
     background-color: #ffffff;
     border-color: #cccccc;
-    color: #b1b1b1
+    color: #b1b1b1;
 }
 
 #name {
@@ -60,8 +61,6 @@
     margin: -50px 15px 10px 10px;
 
 }
-
-
 
 #juju {
     width: 200px;
@@ -155,6 +154,7 @@ h1 {
     border-color: #b1b1b1;
     border: 1px;
     float: left;
+    position: relative;
 }
 
 .banner {
@@ -165,6 +165,8 @@ h1 {
     font-size: 12pt;
     text-align: center;
     line-height: 250%;
+    position: absolute;
+    margin-bottom: 20px;
 }
 
 .button {
