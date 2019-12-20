@@ -1,0 +1,13 @@
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    background-color: lightskyblue;
+}
+
+.headerLinks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: lightgray;
+}
