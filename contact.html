@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About JuJu</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class="Main">
+
+    <div class="stickyheader">
+        <div id= "name">JuJu Rhee</div>
+        <a id= "linkabout" href="index.html">About</a>
+        <a id= "linkportfolio" href="portfolio.html">Portfolio</a>
+        <a id= "linkcontact" href="contact.html">Contact</a>
+    </div>
+
+    <div id= "informationbox3">
+        <h1>Contact</h1>
+        <hr>
+        <form action="URL" method="POST">
+
+            <br><label class="labels" for="Name">Name</label></br>
+            <input class="formentry" type="text" name="Name" placeholder="John Smith">
+
+            <br><label class="labels" for="Email">Email</label></br>
+            <input class="formentry" type="text" name="Email" placeholder="Example@gmail.com">
+            
+            <br><label class="labels" for="Message">Message</label></br>
+            <input id="Message" class="formentry" type="text" name="Message">
+        
+        </form>
+        
+        <button class= "button" type="submit">Submit</button>
     
+    </div>
+
+    <footer class="stickyfooter">
+        <p id="copyright">Copyright ©</p>
+    </footer>
+
 </body>
 </html>
